@@ -1,6 +1,13 @@
+@media (min-width: 300px) and (max-width:700px) {
+  #historyBtn
+  #savedBtn 
+  .img
+   
 .container {
-    display: flex;
+    display: block;
     flex-direction: column;
+
+}
 }
 
 .subContainer {
@@ -25,19 +32,18 @@
 .upper-container #savedBtn {
     background-color: goldenrod;
     color: white;
-    border-radius: 14px;
-    width: 15%;
-    height: 4vw;
     font-size: 20px;
+    display: inline;
+    border-radius: 14px;
     
-}
+    }
+
 
 .upper-container #historyBtn {
     background-color: red;
     color: white;
     border-radius: 14px;
-    width: 13%;
-    height: 4vw;
+    
     font-size: 20px;
 }
 
@@ -54,10 +60,6 @@
     margin-top: 70px; */
 
 }
-    .box1{
-
-    }
-
  .box1 #problemBar {
     position: relative;
     bottom: 15px;
@@ -73,7 +75,8 @@
 input[type="text"] {
     text-align: center;
 }
-
+@media (min-width: 500px) and (max-width:700px) {
+    .box2
 .middle-container .box2 #categoryBar {
     position: relative;
     bottom: 15px;
@@ -85,6 +88,8 @@ input[type="text"] {
     height: 50%;
     font-size: 20px;
 }
+}
+
 
 .middle-container .box3 button {
     background-color: #d1d1d1c9;
@@ -93,6 +98,13 @@ input[type="text"] {
     width: 115%;
     height: 64%;
     border-radius: 42px;
+}
+@media (min-width: 500px) and (max-width:700px) {
+    .searchBtn
+    .box3{
+        display: block;
+
+    }
 }
 
 .container-input {
@@ -112,19 +124,21 @@ input[type="text"] {
     background-color: transparent;
     border: none;
 }
+@media (min-width: 800px) {
 
 .historycon {
     position: relative;
     background-color: rgba(209, 209, 209, 0.79);
     color: black;
     width: 54%;
-    min-height: 18vw;
+    min-height: 20vw;
     height: auto;
     margin-left: 14vw;
     padding-left: 1%;
     border-radius: 25px;
     display: none;
     
+}
 }
 
 .inputBox1 {
@@ -157,5 +171,4 @@ input[type="text"] {
 #deleteBtn:hover{
     color: maroon;
 }
-
 
