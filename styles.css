@@ -25,14 +25,15 @@
 }
 
 .upper-container p {
-    font-size: 6vh;
-    font-weight: 900;
+    font-size:3vh;
+    font-weight: 200;
+    
 }
 
 .upper-container #savedBtn {
     background-color: goldenrod;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     display: inline;
     border-radius: 14px;
     
